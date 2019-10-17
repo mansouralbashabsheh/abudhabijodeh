@@ -1,0 +1,1403 @@
+
+    @font-face {
+    font-family: 'myFirstFont';
+    src: url('../fonts/GEFlow.eot');
+    src: local('ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¹ÃƒÆ’Ã¢â‚¬Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Âº'), url('../fonts/GEFlow.woff') format('woff'), url('../fonts/GEFlow.ttf') format('ttf'), url('../fonts/GEFlow.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+
+.menu {
+   
+    width:100%;
+   
+}
+.fixed {
+    position:fixed;
+    top:0;
+     z-index: 1;
+     
+}
+
+
+.slickcarousel {
+  margin: 0 auto;
+  padding: 15px;
+  width: 90%;
+  color: #333;
+  background: #419be0;
+}
+
+html {
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    margin: 0%;
+    height: auto;
+    padding: 0;
+    overflow-x: hidden;
+}
+.container
+{
+    padding: 0;
+    
+}
+
+
+
+.hidden-thing {
+  position: absolute;
+  left: 100%;
+  width: 50px;
+  height: 50px;
+  opacity: 0;
+  
+}
+
+.headerpage .container
+{
+  padding: 10px;
+}
+.headerpage .container .logo
+{
+    background-color: #fff;
+    width:100%;
+  padding:30px;
+}
+.logo .pull-left ,.logo .pull-right {
+      padding-right: 45px;
+      padding-top: 10px;
+     
+}
+
+.carousel-inner>.item>img
+{
+    width:100%;
+}
+.navbarlinks>li
+{
+ float: right;
+}
+.navbarlinks>li>a
+{
+       font-size: 22px;
+               padding-right: 20px;
+    font-family: 'myFirstFont',Fallback, sans-serif;
+    display: block;
+    margin-right: 20px;
+  
+}
+.collapse .navbarlinks>li>a:hover
+{
+color:#c6a25d;
+text-shadow:1px 1px 10px #908c60,-1px -1px 10px #908c60;
+-webkit-text-stroke:3px solid #fff;
+}
+.navbarmiddle 
+{
+background-color: #2e2e2e;
+
+     
+}
+.navbarlinks
+{
+  padding: 0;
+  margin: 0;
+}
+.navbarlinks>li
+{
+  display: block;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.navbar-header
+{
+   padding: 0;
+}
+.navbarmiddle
+{
+  text-align: center;
+}
+
+
+.carousal-container
+{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    
+    
+}
+
+.navbar-vertical
+{
+   
+
+    display:block;
+    height:280px;
+    width:50px;
+    background-color: #3a3a3a;
+    padding: 7px;
+      position: fixed;
+      margin-top: 50px;
+      z-index: 1;
+         left:0;
+
+ 
+}
+
+.navbar-vertical li{
+margin-bottom: 10px;
+padding: 2px;
+list-style: none;
+
+text-align: center;
+transition: all .6s ease-in-out;
+}
+.navbar-vertical li a{
+    color:#ffffff;
+}
+.navbar-vertical li:hover{
+   background-color: #1e1e1e;
+   transform: rotateY(180deg);
+}
+
+
+
+
+.boxoutside
+  {
+    width:160px;
+   
+  /*  background: url("/images/lightbutton.png");*/
+   
+   text-align: right;
+   float: right;
+   margin-top: 50px;
+    background: url("../images/lightbutton.png");
+   
+   z-index: 1;
+   
+     -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+  }
+  
+.boxoutside1
+  {
+    width:160px;
+    
+    background: url("../images/infobutton.png");
+    text-align: right;
+    clear:right;
+       float: right;
+       
+   z-index: 1;
+   
+     -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+    
+   margin-top: 55px;
+  }
+  
+  
+  .boxoutside:hover
+  {
+    width: 250px;
+  }
+  
+   .boxoutside1:hover
+  {
+    width: 250px;
+  }
+   .container-sliderslick
+{
+  display: none;
+}
+  .containterbutton
+  {
+    position: fixed;
+    z-index: 1;
+    right: 0;
+   
+  }
+  
+  .containterbutton h1
+  {
+     padding: 5px;
+    color:white;
+    font-size: 22px;
+    text-align: center;
+    
+     font-family: 'myFirstFont',Fallback, sans-serif;
+
+    
+  }
+
+
+.container-indicators
+{
+    top:0;
+}
+
+
+.carousel-controls{
+
+  width:300px;
+  margin:0 auto;
+ 
+}
+
+.carousel-indicators{
+   top:0px;
+    margin-top: 15px;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+   background-color: #ffffff;
+       
+}
+.carousel-indicators .active {
+    width: 28px;
+    height: 28px;
+    margin: 10px;
+    background-color: #b2966b;
+  border:6px solid #fff;
+   
+}
+.carousel-indicators li.active:after
+{
+    content:"";
+    opacity: 1;
+ 
+    border: 0px solid transparent;
+    border-bottom-color: #000;
+}
+.container-serv
+{
+    background-color: #b9975b;
+    width: 100%;
+    direction: rtl;
+    padding: 15px;
+  
+  
+    
+}
+.servpic 
+{
+    text-align:left;
+    float: left;
+        padding: 10px;
+    
+}
+.serviceStart
+{
+    background: rgba(157,125,68,0.5);
+    padding-top: 10px;
+      
+}
+
+
+.serviceStart h1{
+     font-family: 'myFirstFont',Fallback, sans-serif;
+}
+
+.serviceStart img {
+  width: 120px;
+}
+
+.serviceEnd a {
+    
+    font-family: 'myFirstFont',Fallback, sans-serif;
+    display: inline-block;
+    font-size: 22px;
+    padding: 0 30px;
+    text-align: center;
+    color: #fff;
+    margin: 15px ;
+text-decoration: none;
+}
+
+.serviceEnd a:not(:last-child){
+    border-left: 4px solid #9d7d44;
+   
+}
+
+.serviceEnd a:hover
+{
+    color: #524938;
+      text-decoration: none;
+  
+    transition: all 0.1s ease-in-out;
+   
+}
+
+ .servicePeople h1 {
+    display: inline;
+    padding-right: 29px;
+    font-family: 'myFirstFont',Fallback, sans-serif;
+    color: #fff;
+    font-size: 27px;
+ }
+.pictureComputerService
+{    font-family: 'myFirstFont',Fallback, sans-serif;
+    font-size: 27px;
+    
+    text-align: center;
+    color: #fff;
+       
+
+}
+.pictureComputerService:hover
+{
+   color: #524938;
+    
+}
+.container-serv1{
+    background-color: #2e2e2e;
+    width:100%;
+    box-sizing: border-box;
+}
+.reqserviceEnd
+{
+   background-color: rgba(31,31,31,0.5);
+   padding:20px 20px;
+   
+   
+ 
+}
+.reqserviceEnd h1,.reqserviceEnd p{
+    margin-right:25px;
+}
+.reqserviceFirst
+{  padding:20px 20px;
+
+  
+}
+.reqserviceFirst h1 , .reqserviceFirst img
+{
+  padding-right: 10px;
+}
+
+ .ImgqusMark
+{
+    margin: 5px;
+    padding-left: 10px;
+    float: left;
+    width:55px;
+    
+   margin: 12px;
+
+}
+
+.reqserviceEnd h1,p{
+    font-family: 'myFirstFont',Fallback, sans-serif;
+    color: #fff;
+   
+
+  
+}
+
+
+.reqserviceFirst .servicePeople img,.servicePeople h1
+{
+    display: inline-block;
+padding-right: 10px;
+font-family: 'myFirstFont',Fallback, sans-serif;
+color: #fff;
+}
+.reqserviceFirst .servicePeople h1
+{
+
+    font-size: 25px;
+    padding: 8px
+}
+.reqserviceFirst .servicePeople img
+{
+    width:105px;
+    
+ padding:10px;
+}
+.reqserviceFirst .servicePeople h1:hover
+{
+    color: #9f8963;
+  
+    transition: all 0.1s ease-in-out;
+   
+}
+
+
+/* -----------------------------------------------------------------------------------------------------------------------*/
+/*     Slider2     */
+
+
+
+/* carousel */
+.media-carousel 
+{
+  margin-bottom: 0;
+  padding: 0 40px 30px 40px;
+  margin-top: 30px;
+}
+/* Previous button  */
+.media-carousel .carousel-control.left 
+{
+  left: -12px;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+/* Next button  */
+.media-carousel .carousel-control.right 
+{
+  right: -12px !important;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+/* Changes the position of the indicators */
+.media-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.media-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+.media-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+.media-carousel img
+{
+  width: auto;
+  
+}
+
+.containslider2 h1, .containslider2 h2 , .containslider2 h1,.containslider2 h2 {
+    color:#000;
+    font-size: 18px;
+    font-family: 'myFirstFont',Fallback, sans-serif;
+    padding: 10px;
+}
+
+.containslider2 .item ,.containslider2 .item
+{
+    color:#000;
+    font-size: 26px;
+}
+.containslider2 h1 ,.containslider2 h1
+{
+    color: #cebd9f;
+    font-size: 25px;
+}
+.containslider2 img{
+
+    padding: 10px;
+    margin-bottom: 20px;
+ float: right;
+}
+
+.multiple-items
+{
+    background-color: #2d2f31;
+    width: 100%;
+    
+}
+
+
+.multiple
+{
+    background-color: #000;
+    height: 150px;
+    width: 100%;
+}
+.multiple  img {
+    width: 220px ;
+    height: 150px;
+   margin:0 10px;
+   padding: 12px 5px;
+   display: inline-block
+
+}
+
+
+
+
+.containerbuttons
+{
+    background-color: #fff;
+    
+   
+ 
+}
+
+.containerbtns .btnServ a
+{
+    font-size:22px;
+    font-family: 'myFirstFont',Fallback, sans-serif;
+   
+   
+color:#fff;
+    
+    text-decoration: none;
+}
+
+.containerbtns .btnServ a ::before
+{
+     border-left: solid 5px ;
+}
+
+.btnservice:hover
+{
+    background-color:#3b4449;
+}
+
+.containerbuttons .btnservice :active
+{
+
+ background-color: #b9975b;
+  
+}
+.containerbtns
+{
+    background-color:#2e2e2e;
+}
+
+.containerbtns .btnServ:hover
+{
+    background-color:#3b4449;
+}
+.containerbtns .btnServ:active
+{
+     background-color: #b9975b;
+}
+
+.activeClass
+{
+    background-color: #b9975b;
+}
+.containerbtns .btnServ{
+    float: left;
+    padding: 20px;
+        width: 292.5px;
+    
+    text-align: center;
+    color: #fff;
+    border-left: 3px solid #FFF;
+    
+    
+}
+
+.SliderControlContent
+{
+    float: right;
+}
+.SliderControlContent h1 
+{
+    color:#000;
+}
+
+.SliderControlContent img
+{
+width: 180px;
+float: right;
+    padding: 10px;
+
+    margin-bottom: 20px;
+
+   
+
+}
+
+
+.slick-list .draggable
+{
+     display: inline-block;
+}
+
+.ControlChevron 
+{
+  padding-top: 20px;
+ 
+}
+.ControlChevron a i
+{
+    color: #c9c9c9;
+    
+}
+.SliderControlContent span
+{
+font-size: 28px;
+
+    font-family: 'myFirstFont',Fallback, sans-serif;
+    
+
+    
+}
+
+.SliderControlContent h2{
+    font-size: 24px;
+
+    font-family: 'myFirstFont',Fallback, sans-serif;
+    color:#b9975b;
+
+}
+
+
+
+
+.container-home
+{
+    background-repeat: no-repeat;
+    
+    background-image: url('../images/wallpaperHandsTrust.png');
+    background-position: 100% 90%;
+    width: 100%;
+    height: auto;
+    position: relative;
+    
+}
+
+.container-home .container{
+    background-color: rgba(0,0,0,0.5);
+    padding: 40px 40px;
+    
+    width: 100%;
+    height: auto;
+
+
+}
+.controlLink  h3{
+    font-size: 23px;
+}
+.controlLink a  h3 span {
+    color: #FFF;
+    display: block;
+    padding: 10px 0;
+    
+    font-family: 'myFirstFont',Fallback, sans-serif;
+    font-size:24px;
+   
+}
+.controlLink a
+{
+     text-decoration: none;
+     color:#c6a25d;
+}
+.controlLinkTrust h2
+{
+     font-size: 40px;
+     font-family: 'myFirstFont',Fallback, sans-serif;
+    color:#fff;
+     padding: 5px;
+}
+.controlLinkTrust h2 span
+{
+    font-size: 40px;
+     font-family: 'myFirstFont',Fallback, sans-serif;
+     
+     padding: 10px;
+      color:#c6a25d;
+     
+     
+}
+.controlLinkTrust p
+{
+    font-size: 18px;
+    padding: 10px 0;
+   
+}
+.controlLink img
+{
+    width: 130px;
+    height: auto;
+    
+    
+}
+.controlLink h3
+{
+    font-family: 'myFirstFont',Fallback, sans-serif;
+    
+}
+
+
+.carousel-control span {
+    color: #000;
+    z-index: 1;
+    bottom: 0;
+    
+}
+
+
+div.ServiceIconWallpaper
+{
+  background-color: #e3e3e3;
+       background-image: url('../images/iconWallBackground.png');
+       background-repeat: no-repeat;
+          background-position: right;
+        background-size: 46% 271%;
+     padding: 30px 0 0 0;
+}
+
+.ControlServiceicon {
+    margin-bottom: 30px;
+}
+.ControlServiceicon a  img {
+    width: 100px ;
+    height: 100px;
+    padding: 8px;
+    text-align: center;
+    transition: all 0.5s ease;
+
+}
+
+
+.ControlServiceicon a  img:hover
+{
+  
+  transform: rotateY(180deg);
+}
+
+.ControlServiceicon a
+{
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+.ControlServiceicon a h4
+{
+    font-family: 'myFirstFont',Fallback, sans-serif;
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+    color: #000;
+}
+.ControlServiceicon a  h4 span
+{ font-family: 'myFirstFont',Fallback, sans-serif;
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+    color: #b2966b;
+  
+}
+
+.ControlServiceText h3
+{
+    font-size: 30px;
+    color:#b2966b;
+     font-family: 'myFirstFont',Fallback, sans-serif;
+     padding-bottom:10px;
+    
+}
+.ControlServiceText h3 span {
+    font-size: 25px;
+    color:#000;
+     font-family: 'myFirstFont',Fallback, sans-serif;
+     padding: 10px;
+}
+.ControlServiceText p
+{
+    color:#000;
+    font-size: 18px;
+    letter-spacing: 1px;
+ 
+}
+.ControlServiceicon a .pinkColorText
+{
+  color:#c8a1a1;
+}
+.container-footer
+{
+    background-color: #1f1f1f;
+    width: 100%;
+  
+    padding: 20px;
+}
+.ContolFooter ul li
+{
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    padding-right:2px;
+    padding-bottom: 20px;
+    
+    
+}
+
+/*
+.ContolFooter ul li:not(:last-child){
+    border-left: 2px solid #977f5c;
+    padding: 5px;
+    
+}
+*/
+.ContolFooter ul
+{
+    text-align: center;
+    
+}
+.ContolFooter ul li a 
+{
+    text-decoration: none;
+    color: #977f5c;
+    font-family: 'myFirstFont',Fallback, sans-serif;
+    font-size: 17px;
+    transition: all 0.2s ease-in-out;
+    display: block;
+    padding-left: 10px;
+    margin-left: 10px;
+    padding-right: 5px;
+    margin-right: 5px; 
+        
+    
+}
+.ContolFooter ul li:not(:last-child) a { border-left: 2px solid #977f5c;}
+
+    
+
+
+.ContolFooter ul li a:hover
+{
+    color: #fff;
+}
+
+.ControlSocialMedia ul li
+{
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px;
+    
+}
+.ControlSocialMedia ul
+{
+  
+  text-align: center;
+      display: block;
+      padding-right: 15px;
+      margin-right: 15px;
+
+}
+.ControlSocialMedia ul li a{
+  color:#fff;
+}
+.ControlSocialMedia ul li a :hover
+{
+  color:#be924d;
+}
+
+.ControlNumber img
+{
+ width:200px;
+ height: 50px;
+ 
+}
+.ControlBrowser p
+{
+ pull-left
+  
+}
+.ControlCopyWrite p
+{
+ 
+  font-size: 11px;
+  
+}
+
+
+
+.slick-prev::before, .slick-next::before
+{
+    color: #c9c9c9;
+  
+  padding: 1px;
+  
+  margin-left: 15px;
+
+  
+      opacity:1;
+}
+
+.slick-prev:hover::before, .slick-next:hover::before 
+{
+    font-size: 40px;
+}
+
+.tab-content-control
+{
+    padding: 5px;
+}
+.controltabs
+{
+     width: 100%;
+         padding: 10px;
+}
+.container-tabs-btns
+{
+    background-color: #e3e3e3;
+     direction: rtl;
+
+}
+
+.btn-tabs
+{
+    
+       
+        
+            padding-right: 0px;
+           
+        
+       
+     
+}
+.btn-tabs li a
+{
+       color: #fff;
+       font-size: 18px;
+       padding: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: 'myFirstFont',Fallback, sans-serif;
+       
+      
+       
+  
+   
+      
+}
+
+.btn-tabs li a:hover
+{
+       color: #fff;
+       font-size: 18px;
+         background-color: #b9975b;
+}
+
+
+.btn-tabs li 
+{
+    background-color: #2e2e2e;
+   margin-right: 2px;
+    width: 24.8%;
+  
+    
+   
+    
+} 
+
+
+.btn-tabs>li.active>a, .btn-tabs>li.active>a:focus, .btn-tabs>li.active>a:hover
+{
+       background-color: #b9975b;
+       color: #fff;
+         display: inline-block;
+    width: 100%;
+    float: right;
+}
+
+.nav-tabs > li a
+{
+      border-radius: 0;
+          padding: 15px;
+           margin: 0 0;
+}
+
+.controlImage
+{
+float: right;
+}
+
+.fade h3{
+    font-family: 'myFirstFont',Fallback, sans-serif;
+    font-size: 35px;
+    color:#b9975b;
+}
+
+.fade span
+{
+   font-family: 'myFirstFont',Fallback, sans-serif;
+    font-size: 25px;
+    color:#b9975b;
+}
+
+.fade h4
+{
+   font-family: 'myFirstFont',Fallback, sans-serif;
+    font-size: 24px;
+}
+.controlImageText img h3 span
+{
+  font-size: 25px;
+}
+@media (min-width: 992px)
+{
+.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9
+{
+    float:right;
+}
+}
+
+@media (min-width: 768px)
+{
+    .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9
+    {
+         float:right;
+    }
+}
+
+
+
+
+
+
+
+
+.board{
+    width: 75%;
+margin: 60px auto;
+height: 500px;
+background: #fff;
+/*box-shadow: 10px 10px #ccc,-10px 20px #ddd;*/
+}
+.board .nav-tabs {
+    position: relative;
+    /* border-bottom: 0; */
+    /* width: 80%; */
+    margin: 40px auto;
+    margin-bottom: 0;
+    box-sizing: border-box;
+
+}
+
+.board > div.board-inner{
+    background: #fafafa url(http://subtlepatterns.com/patterns/geometry2.png);
+    background-size: 30%;
+}
+
+p.narrow{
+    width: 60%;
+    margin: 10px auto;
+    color: #000;
+    font-family: 'myFirstFont',Fallback, sans-serif;
+}
+
+.liner{
+    height: 2px;
+    background: #ddd;
+    position: absolute;
+    width: 80%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    z-index: 1;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #fff;
+    cursor: default;
+    /* background-color: #ffffff; */
+    border: 0;
+    border-bottom-color: transparent;
+}
+
+span.round-tabs{
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    display: inline-block;
+    border-radius: 100px;
+    background: white;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+
+span.round-tabs.three{
+    color: #3e5e9a;border: 2px solid #3e5e9a;
+}
+
+li.active span.round-tabs.three{
+    background: #fff !important;
+    border: 2px solid #ddd;
+    color: #3e5e9a;
+}
+
+span.round-tabs.four{
+    color: #f1685e;border: 2px solid #f1685e;
+}
+
+li.active span.round-tabs.four{
+    background: #fff !important;
+    border: 2px solid #ddd;
+    color: #f1685e;
+}
+
+span.round-tabs.five{
+    color: #999;border: 2px solid #999;
+}
+
+
+
+.tab-content{
+}
+.tab-pane{
+   position: relative;
+    /* padding-top: 50px; */
+    margin: 15px;
+    padding-bottom: 15px;
+
+}
+.tab-content .head{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.btn-outline-rounded{
+    padding: 10px 40px;
+    margin: 20px 0;
+    border: 2px solid transparent;
+    border-radius: 25px;
+}
+
+.btn.green{
+    background-color:#5cb85c;
+    /*border: 2px solid #5cb85c;*/
+    color: #ffffff;
+}
+
+
+
+@media( max-width : 585px ){
+    
+    .board {
+width: 90%;
+height:auto !important;
+}
+    span.round-tabs {
+        font-size:16px;
+width: 50px;
+height: 50px;
+line-height: 50px;
+    }
+    .tab-content .head{
+        font-size:20px;
+        }
+        
+ 
+.tab-pane .paragraphColor 
+{
+    color:#f00 !important;
+}
+
+@media (max-width: 767px)
+{
+  
+  .logoabudubaiRight img 
+  {
+    text-align: center;
+    width: 250px;
+    height: 80px;
+    padding: 10px;
+
+  }
+  
+  .pull-right
+  {
+    text-align: center;
+  }
+   .pull-left
+  {
+    text-align: center;
+  }
+   .headerpage .row
+   {
+    text-align: center;
+    
+   }
+  .imagePos img
+  {
+    text-align: center;
+     padding: 10px;
+     width: 190px;
+    height: 70px;
+    
+  }
+  
+  .container-serv
+  {
+    text-align: center;
+  }
+  
+  .container-serv1
+  {
+    text-align: center;
+  }
+  .serviceStart {
+    float:right !important;
+    
+}
+.boxoutside
+  {
+    width:100px;
+    height:50px;
+    
+    
+  /*  background: url("/images/lightbutton.png");*/
+   
+   text-align: right;
+   float: right;
+  
+    background: url("../images/lightbutton.png");
+   
+   z-index: 1;
+  }
+  
+.boxoutside1
+  {
+   width:100px;
+   height:50px;
+    background: url("../images/infobutton.png");
+    
+    clear:right;
+       float: right;
+       
+   z-index: 1;
+    
+  
+  }
+
+  .containterbutton
+  {
+    position: fixed;
+    z-index: 1;
+   
+   
+  }
+  
+  .containterbutton h1
+  {
+     margin: 10px;
+    color:white;
+    text-align: center;
+    font-size: 12px;
+     font-family: 'myFirstFont',Fallback, sans-serif;
+
+    
+  }
+  
+ .navbar-vertical
+{
+   
+
+    display:block;
+    height:250px;
+    width:40px;
+    background-color: #3a3a3a;
+    padding: 5px;
+      position: fixed;
+      margin-top: 50px;
+      z-index: 1;
+         left:0;
+
+ 
+}
+.navbar-vertical ul
+{
+  padding: 0;
+}
+.navbar-vertical li{
+margin-bottom: 5px;
+padding: 2px;
+list-style: none;
+color: #fff;
+text-align: center;
+transition: all .2s ease-in-out;
+-webkit-transition: all .2s ease-in-out;
+}
+
+.controlLink
+{
+  text-align: center;
+}
+.ContolFooter
+{
+  padding: 20px;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #ffffff;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+.carousel-indicators .active {
+    width: 8px;
+    height: 8px;
+    margin: 2px;
+    background-color: #b2966b;
+    border: 8px solid #fff;
+}
+.pull-left img
+{
+  
+  padding: 10px;
+  background-position: center;
+ 
+}
+
+.pull-right img
+{
+ 
+  padding: 10px;
+  background-position: center;
+ 
+}
+
+}
