@@ -4,7 +4,7 @@
   "description": "Fancy sticky navigation jQuery plugin with smart anchor links highlighting",
   "main": "jquery.stickyNavbar.js",
   "dependencies": {
-    "jquery": "^1.10.2"
+    "jquery": "^3.5.0"
   },
   "devDependencies": {
     "browser-sync": "^1.9.1"
